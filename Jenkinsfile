@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("tulasi")
+        app = docker.build("tulasi/devops-tutorial")
     }
 
     stage('Test image') {
